@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.25;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-image: url('../images/background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px 70px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 20px;
+    right: 120px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title-section h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.content {
+    background-color: white;
+    padding: 40px 120px;
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contest-content {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+}
+
+.contest-text {
+    width: 50%;
+    text-align: justify;
+}
+
+.contest-text a {
+    color: #003366;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.contest-poster {
+    width: 50%;
+}
+
+.contest-poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 40px 20px;
+        text-align: left; /* Align the text to the left on smaller screens */
+    }
+
+    .navbar {
+        position: static; /* Change position to static on smaller screens */
+        margin-bottom: 20px; /* Add spacing between the navbar and the title */
+        text-align: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navbar ul li a {
+        font-size: 16px;
+    }
+
+    .title-section h1 {
+        font-size: 36px;
+        text-align: center; /* Center the title text */
+    }
+
+    .content {
+        padding: 20px 40px;
+    }
+
+    .contest-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contest-text, .contest-poster {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-section h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .content {
+        padding: 20px;
+    }
+}
