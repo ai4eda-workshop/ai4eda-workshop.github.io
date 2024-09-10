@@ -70,6 +70,12 @@ body {
     font-weight: bold;
 }
 
+.contest-text a:visited {
+    color: #003366;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .contest-poster {
     width: 50%;
 }
