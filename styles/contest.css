@@ -57,6 +57,7 @@ body {
     display: flex;
     gap: 40px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .contest-text {

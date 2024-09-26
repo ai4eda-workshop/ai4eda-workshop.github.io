@@ -50,6 +50,10 @@ body {
     text-align: justify;
 }
 
+.schedule {
+    margin-bottom: 30px;
+}
+
 .schedule table {
     width: 100%;
     border-collapse: collapse;
