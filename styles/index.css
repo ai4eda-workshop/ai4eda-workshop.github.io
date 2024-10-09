@@ -117,13 +117,10 @@ body {
 }
 
 .speaker a,
-.organizer a {
-    text-decoration: none;
-    color: #336699;
-}
-
+.organizer a,
 .speaker a:visited,
 .organizer a:visited {
+    text-decoration: none;
     color: #336699;
 }
 
@@ -164,7 +161,7 @@ body {
 .sponsor-logo {
     height: 80px;
     width: auto;
-    margin: 0 30px;
+    margin: 20px 30px;
 }
 
 @media (max-width: 768px) {
@@ -219,7 +216,7 @@ body {
 
     .sponsor-logo {
         height: 50px;
-        margin: 10px;
+        margin: 20px;
     }
 }
 
