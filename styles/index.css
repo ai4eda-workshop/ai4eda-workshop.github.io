@@ -164,6 +164,37 @@ body {
     margin: 20px 30px;
 }
 
+.hotel-info {
+    background-color: #f9f9f9;
+    padding: 0.1px 10px 10px 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.hotel-info h4 {
+    color: #003366;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.hotel-info p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.hotel-link {
+    font-size: 18px;
+    color: #336699;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hotel-link:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .header {
         padding: 60px 20px;
@@ -218,6 +249,22 @@ body {
         height: 50px;
         margin: 20px;
     }
+
+    .hotel-info {
+        padding: 0.1px 10px 10px 10px;
+    }
+
+    .hotel-info h4 {
+        font-size: 22px;
+    }
+
+    .hotel-info p {
+        font-size: 16px;
+    }
+
+    .hotel-link {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -261,5 +308,21 @@ body {
     .sponsor-logo {
         height: 40px;
         margin: 10px;
+    }
+
+    .hotel-info {
+        padding: 0.1px 10px 10px 10px;
+    }
+
+    .hotel-info h4 {
+        font-size: 20px;
+    }
+
+    .hotel-info p {
+        font-size: 14px;
+    }
+
+    .hotel-link {
+        font-size: 14px;
     }
 }
