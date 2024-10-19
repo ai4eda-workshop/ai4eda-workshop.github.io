@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 .header {
@@ -65,6 +65,12 @@ body {
     border-bottom: 1px solid #ccc;
     vertical-align: top;
     color: #000000;
+}
+
+.chair-moderator {
+    display: block;
+    margin-top: 10px; /* Adds a gap between the session theme and chair/moderator */
+    /* color: #555;      Softer color to differentiate from the session theme */
 }
 
 .schedule table td a,
@@ -170,6 +176,11 @@ body {
     .schedule table td {
         padding: 10px 5px; /* Further decreased padding between columns */
         font-size: 16px; /* Decreased font size for the table */
+    }
+
+    .chair-moderator {
+        margin-top: 8px; /* Slightly reduce the gap for very small screens if needed */
+        font-size: 14px;  /* Adjust the font size for small screens */
     }
 
     .schedule table td:first-child {

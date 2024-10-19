@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 .header {
@@ -64,7 +64,6 @@ body {
 }
 
 .major-activities h4,
-.important-dates h4,
 .invited-speakers h4,
 .organizers h4,
 .sponsorship h4 {
@@ -74,24 +73,18 @@ body {
 }
 
 .introduction ul,
-.major-activities ul,
-.important-dates ul {
+.major-activities ul {
     padding-left: 25px;
 }
 
-.speakers-grid {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-}
-
+.speakers-grid,
 .organizers-grid {
     display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns for invited speakers */
 }
 
-.speaker
+.speaker,
 .organizer {
     display: flex;
     flex-direction: column;
@@ -150,7 +143,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 20px;
 }
 
 .sponsor-logo-large {
@@ -162,37 +154,6 @@ body {
     height: 80px;
     width: auto;
     margin: 20px 30px;
-}
-
-.hotel-info {
-    background-color: #f9f9f9;
-    padding: 0.1px 10px 10px 10px;
-    margin-top: 20px;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.hotel-info h4 {
-    color: #003366;
-    font-size: 24px;
-    margin-bottom: 5px;
-}
-
-.hotel-info p {
-    font-size: 18px;
-    color: #333;
-    margin-bottom: 5px;
-}
-
-.hotel-link {
-    font-size: 18px;
-    color: #336699;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.hotel-link:hover {
-    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -233,12 +194,10 @@ body {
         padding: 20px 40px;
     }
 
-    .speakers-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
+    .speakers-grid,
     .organizers-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
     }
 
     .sponsor-logo-large {
@@ -248,22 +207,6 @@ body {
     .sponsor-logo {
         height: 50px;
         margin: 20px;
-    }
-
-    .hotel-info {
-        padding: 0.1px 10px 10px 10px;
-    }
-
-    .hotel-info h4 {
-        font-size: 22px;
-    }
-
-    .hotel-info p {
-        font-size: 16px;
-    }
-
-    .hotel-link {
-        font-size: 16px;
     }
 }
 
@@ -298,7 +241,8 @@ body {
 
     .speakers-grid,
     .organizers-grid {
-        grid-template-columns: 1fr;
+        gap: 15px;
+        grid-template-columns: repeat(2, 1fr); /* 5 columns for invited speakers */
     }
 
     .sponsor-logo-large {
@@ -308,21 +252,5 @@ body {
     .sponsor-logo {
         height: 40px;
         margin: 10px;
-    }
-
-    .hotel-info {
-        padding: 0.1px 10px 10px 10px;
-    }
-
-    .hotel-info h4 {
-        font-size: 20px;
-    }
-
-    .hotel-info p {
-        font-size: 14px;
-    }
-
-    .hotel-link {
-        font-size: 14px;
     }
 }

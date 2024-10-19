@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 .header {
@@ -13,7 +13,7 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 100px 20px 70px 20px;
+    padding: 143px 20px 142px 20px;
     text-align: center;
     position: relative;
 }
@@ -41,28 +41,56 @@ body {
 
 .title-section h1 {
     margin: 0;
-    font-size: 48px;
+    font-size: 40px;
 }
 
 .content {
     background-color: white;
-    padding: 40px 120px;
+    padding: 0px 120px;
+    margin-top: 0px;
     text-align: justify;
 }
 
-.introduction ul {
-    padding-left: 20px;
-    margin: 20px 0;
-}
-
-.submission h4 {
+.important-dates h4 {
     color: #003366;
     font-size: 28px;
     margin-bottom: 20px;
 }
 
-.submission p {
-    margin-bottom: 15px;
+.important-dates ul {
+    padding-left: 25px;
+}
+
+.hotel-info {
+    background-color: #f9f9f9;
+    padding: 0.1px 10px 15px 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.hotel-info h4 {
+    color: #003366;
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.hotel-info p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.hotel-link {
+    font-size: 18px;
+    color: #336699;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hotel-link:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -95,6 +123,26 @@ body {
     .content {
         padding: 20px 40px;
     }
+
+    .important-dates h4 {
+        margin-top: 10px;
+    }
+    
+    .hotel-info {
+        padding: 0.1px 10px 10px 10px;
+    }
+
+    .hotel-info h4 {
+        font-size: 22px;
+    }
+
+    .hotel-info p {
+        font-size: 16px;
+    }
+
+    .hotel-link {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -118,6 +166,26 @@ body {
     }
 
     .content {
-        padding: 20px;
+        padding: 20px 20px;
+    }
+
+    .hotel-info {
+        padding: 0.1px 10px 10px 10px;
+    }
+
+    .important-dates h4 {
+        margin-top: 0px;
+    }
+
+    .hotel-info h4 {
+        font-size: 20px;
+    }
+
+    .hotel-info p {
+        font-size: 14px;
+    }
+
+    .hotel-link {
+        font-size: 14px;
     }
 }
