@@ -90,18 +90,18 @@ body {
 @media (max-width: 768px) {
     .header {
         padding: 40px 20px;
-        text-align: left; /* Align the text to the left on smaller screens */
+        text-align: center; /* Align the text to the left on smaller screens */
     }
 
     .navbar {
         position: static; /* Change position to static on smaller screens */
         margin-bottom: 20px; /* Add spacing between the navbar and the title */
-        text-align: center;
+        text-align: left;
     }
 
     .navbar ul {
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         gap: 10px;
     }
 

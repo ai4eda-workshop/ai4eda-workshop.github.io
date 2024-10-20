@@ -62,30 +62,28 @@ ul {
     padding-left: 25px;
 }
 
-a {
+a,
+a:hover,
+a:visited {
     color: #336699;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    /* text-decoration: none; */
 }
 
 @media (max-width: 768px) {
     .header {
         padding: 60px 20px;
-        text-align: left;
+        text-align: center;
     }
 
     .navbar {
         position: static;
         margin-bottom: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .navbar ul {
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         gap: 15px;
     }
 
@@ -111,7 +109,7 @@ a:hover {
 
     .navbar ul {
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         gap: 5px 10px;
     }
 

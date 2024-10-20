@@ -111,18 +111,18 @@ body {
 @media (max-width: 768px) {
     .header {
         padding: 60px 20px;
-        text-align: left;
+        text-align: center;
     }
 
     .navbar {
         position: static;
         margin-bottom: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .navbar ul {
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         gap: 15px;
     }
 
@@ -157,7 +157,7 @@ body {
 
     .navbar ul {
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         gap: 10px;
     }
 
