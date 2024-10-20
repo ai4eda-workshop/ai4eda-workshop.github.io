@@ -13,7 +13,7 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 123px 20px 122px 20px;
+    padding: 143px 20px 142px 20px;
     text-align: center;
     position: relative;
 }
@@ -41,68 +41,52 @@ body {
 
 .title-section h1 {
     margin: 0;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 .content {
     background-color: white;
-    padding: 20px 120px;
-    /* margin-top: 30px; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 10px 120px;
+    margin-top: 0;
 }
 
-.contest-content {
-    display: flex;
-    gap: 40px;
-    width: 100%;
+.poster-details h4,
+.submission-guidelines h4 {
+    color: #003366;
+    font-size: 28px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.contest-text {
-    width: 50%;
-    text-align: justify;
+ul {
+    padding-left: 25px;
 }
 
-.contest-text a {
-    color: #003366;
+a {
+    color: #336699;
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: underline;
-    font-weight: bold;
-}
-
-.contest-text a:visited {
-    color: #003366;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.contest-poster {
-    width: 50%;
-}
-
-.contest-poster img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
 }
 
 @media (max-width: 768px) {
     .header {
-        padding: 40px 20px;
-        text-align: left; /* Align the text to the left on smaller screens */
+        padding: 60px 20px;
+        text-align: left;
     }
 
     .navbar {
-        position: static; /* Change position to static on smaller screens */
-        margin-bottom: 20px; /* Add spacing between the navbar and the title */
+        position: static;
+        margin-bottom: 20px;
         text-align: center;
     }
 
     .navbar ul {
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 15px;
     }
 
     .navbar ul li a {
@@ -111,30 +95,35 @@ body {
 
     .title-section h1 {
         font-size: 36px;
-        text-align: center; /* Center the title text */
+        text-align: center;
     }
 
     .content {
         padding: 10px 40px;
     }
-
-    .contest-content {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .contest-text, .contest-poster {
-        width: 100%;
-    }
 }
 
 @media (max-width: 480px) {
-    .title-section h1 {
-        font-size: 28px;
+    .header {
+        padding: 50px 20px;
         text-align: center;
     }
 
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px 10px;
+    }
+
+    .navbar ul li a {
+        font-size: 16px;
+    }
+
+    .title-section h1 {
+        font-size: 28px;
+    }
+
     .content {
-        padding: 10px;
+        padding: 10px 20px;
     }
 }
