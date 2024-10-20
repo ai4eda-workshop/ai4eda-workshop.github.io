@@ -13,7 +13,7 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 100px 20px 100px 20px;
+    padding: 100px 20px 80px 20px;
     text-align: center;
     position: relative;
 }
@@ -41,18 +41,18 @@ body {
 
 .title-section h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .title-section h2 {
     margin: 0;
-    font-size: 40px;
+    font-size: 36px;
     margin-top: 10px;
 }
 
 .title-section h3 {
     margin: 0;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
@@ -151,7 +151,7 @@ body {
 }
 
 .sponsor-logo {
-    height: 80px;
+    height: 65px;
     width: auto;
     margin: 20px 30px;
 }
@@ -179,15 +179,15 @@ body {
     }
 
     .title-section h1 {
-        font-size: 28px;
+        font-size: 18px;
     }
 
     .title-section h2 {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .title-section h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .content {
@@ -226,7 +226,10 @@ body {
         font-size: 16px;
     }
 
-    .title-section h1,
+    .title-section h1 {
+        font-size: 20px;
+    }
+
     .title-section h2 {
         font-size: 28px;
     }

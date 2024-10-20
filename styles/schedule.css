@@ -180,7 +180,6 @@ body {
 
     .chair-moderator {
         margin-top: 8px; /* Slightly reduce the gap for very small screens if needed */
-        font-size: 14px;  /* Adjust the font size for small screens */
     }
 
     .schedule table td:first-child {
