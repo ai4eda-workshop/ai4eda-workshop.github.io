@@ -211,10 +211,6 @@ body {
         padding: 10px 40px;
     }
 
-    .important-dates h4 {
-        margin-top: 10px;
-    }
-
     .speakers-grid,
     .organizers-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -261,10 +257,6 @@ body {
 
     .content {
         padding: 10px 20px;
-    }
-
-    .important-dates h4 {
-        margin-top: 0px;
     }
 
     .speakers-grid,
