@@ -65,7 +65,8 @@ body {
 
 .invited-speakers h4,
 .organizers h4,
-.sponsorship h4 {
+.sponsorship h4,
+.important-dates h4 {
     color: #003366;
     font-size: 28px;
     margin-bottom: 20px;
@@ -75,23 +76,21 @@ body {
     padding-left: 25px;
 }
 
-.important-dates h4 {
-    color: #003366;
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
 .introduction a,
 .introduction a:hover,
 .introduction a:visited,
 .important-dates a,
 .important-dates a:hover,
-.importang-dates a:visited {
+.important-dates a:visited {
     color: #336699;
 }
 
 .important-dates ul {
     padding-left: 25px;
+}
+
+.registration {
+    margin-bottom: 10px;
 }
 
 .speakers-grid,
