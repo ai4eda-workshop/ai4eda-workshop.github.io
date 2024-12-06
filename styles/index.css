@@ -97,7 +97,7 @@ body {
 .organizers-grid {
     display: grid;
     gap: 0px 40px;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns for invited speakers */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for invited speakers */
 }
 
 .speaker,
@@ -260,7 +260,7 @@ body {
 
     .speakers-grid,
     .organizers-grid {
-        gap: 15px;
+        gap: 5px 15px;
         grid-template-columns: repeat(2, 1fr); /* 5 columns for invited speakers */
     }
 
