@@ -93,11 +93,16 @@ body {
     margin-bottom: 10px;
 }
 
-.speakers-grid,
-.organizers-grid {
+.speakers-grid {
     display: grid;
     gap: 0px 40px;
     grid-template-columns: repeat(4, 1fr); /* 4 columns for invited speakers */
+}
+
+.organizers-grid {
+    display: grid;
+    gap: 0px 25px;
+    grid-template-columns: repeat(5, 1fr); /* 4 columns for invited speakers */
 }
 
 .speaker,
