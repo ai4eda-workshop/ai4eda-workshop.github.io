@@ -69,6 +69,7 @@ body {
 .important-dates h4 {
     color: #003366;
     font-size: 28px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -211,6 +212,14 @@ body {
         font-size: 18px;
     }
 
+    .invited-speakers h4,
+    .organizers h4,
+    .sponsorship h4,
+    .important-dates h4 {
+        color: #003366;
+        font-size: 24px;
+    }
+
     .content {
         padding: 10px 40px;
     }
@@ -257,6 +266,14 @@ body {
 
     .title-section h3 {
         font-size: 18px;
+    }
+
+    .invited-speakers h4,
+    .organizers h4,
+    .sponsorship h4,
+    .important-dates h4 {
+        color: #003366;
+        font-size: 20px;
     }
 
     .content {

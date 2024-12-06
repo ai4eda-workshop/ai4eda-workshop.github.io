@@ -52,7 +52,8 @@ body {
 }
 
 .poster-details h4,
-.submission-guidelines h4 {
+.submission-guidelines h4,
+.accepted-posters h4 {
     color: #003366;
     font-size: 28px;
     margin-bottom: 20px;
@@ -61,6 +62,14 @@ body {
 
 ul {
     padding-left: 25px;
+}
+
+.accepted-posters ul li {
+    margin-bottom: 15px;
+}
+
+.accepted-posters {
+    padding-bottom: 30px;
 }
 
 a,
@@ -100,6 +109,13 @@ a:visited {
     .content {
         padding: 10px 40px;
     }
+
+    .poster-details h4,
+    .submission-guidelines h4,
+    .accepted-posters h4 {
+        color: #003366;
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -124,5 +140,12 @@ a:visited {
 
     .content {
         padding: 10px 20px;
+    }
+
+    .poster-details h4,
+    .submission-guidelines h4,
+    .accepted-posters h4 {
+        color: #003366;
+        font-size: 20px;
     }
 }
