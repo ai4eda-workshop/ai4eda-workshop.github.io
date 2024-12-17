@@ -110,7 +110,7 @@ body {
     }
 
     .title-section h1 {
-        font-size: 36px;
+        font-size: 28px;
         text-align: center; /* Center the title text */
     }
 
@@ -130,7 +130,7 @@ body {
 
 @media (max-width: 480px) {
     .title-section h1 {
-        font-size: 28px;
+        font-size: 24px;
         text-align: center;
     }
 

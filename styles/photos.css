@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.25;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: white;
+}
+
+.header {
+    background-image: url('../images/background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 143px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 20px;
+    right: 120px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title-section h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.content {
+    background-color: white;
+    padding: 20px 120px;
+    text-align: center;
+}
+
+.photos-section {
+    margin-bottom: 30px;
+}
+
+.photos-section h2 {
+    color: #003366;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.photos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for large screens */
+    gap: 20px;
+}
+
+.photos-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.photos-grid img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .navbar {
+        position: static;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: left;
+        gap: 15px;
+    }
+
+    .navbar ul li a {
+        font-size: 16px;
+    }
+
+    .title-section h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .content {
+        padding: 20px 40px;
+    }
+
+    .photos-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: left;
+        gap: 10px;
+    }
+
+    .navbar ul li a {
+        font-size: 16px;
+    }
+
+    .title-section h1 {
+        font-size: 28px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .photos-grid {
+        grid-template-columns: 1fr; /* 1 column for mobile devices */
+        gap: 10px;
+    }
+}
