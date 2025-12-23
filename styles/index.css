@@ -63,10 +63,7 @@ body {
     text-align: justify;
 }
 
-.invited-speakers h4,
-.organizers h4,
-.sponsorship h4,
-.important-dates h4 {
+h4 {
     color: #003366;
     font-size: 28px;
     margin-top: 20px;
@@ -212,10 +209,7 @@ body {
         font-size: 18px;
     }
 
-    .invited-speakers h4,
-    .organizers h4,
-    .sponsorship h4,
-    .important-dates h4 {
+    h4 {
         color: #003366;
         font-size: 24px;
     }
@@ -268,10 +262,7 @@ body {
         font-size: 18px;
     }
 
-    .invited-speakers h4,
-    .organizers h4,
-    .sponsorship h4,
-    .important-dates h4 {
+    h4 {
         color: #003366;
         font-size: 20px;
     }
