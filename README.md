@@ -1,1 +1,2 @@
 The official website of the AI for EDA Workshop (2024): https://ai4eda-workshop.github.io/
+We are organizing the 2026 workshop: https://ai4eda-workshop.github.io/2026/. Welcome to join the workshop in March, 2026!
